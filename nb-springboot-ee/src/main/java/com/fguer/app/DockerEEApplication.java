@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AppSpringDockerApplication {
+public class DockerEEApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AppSpringDockerApplication.class, args);
+		SpringApplication.run(DockerEEApplication.class, args);
 	}
 }
