@@ -2,7 +2,7 @@
 version: '2'
 services:
     app-spring-docker-srv:
-        image: fabgue/app-spring-docker
+        image: fabgue/nb-springboot-ee
         external_links:
             - db:postgres
         ports:

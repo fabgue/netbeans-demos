@@ -52,4 +52,5 @@
                 <goal>docker:build</goal>
             </goals>
         </action>
+    
 </actions>

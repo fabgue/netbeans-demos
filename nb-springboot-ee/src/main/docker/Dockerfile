@@ -2,7 +2,7 @@ FROM java:8
  
 MAINTAINER fabgue
  
-ADD app-spring-docker.jar /app.jar
+ADD nb-springboot-ee.jar /app.jar
  
 EXPOSE 8000 8080
  
