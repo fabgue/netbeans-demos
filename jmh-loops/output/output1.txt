@@ -1,0 +1,318 @@
+# JMH version: 1.19
+# VM version: JDK 1.8.0_144, VM 25.144-b01
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.fguer.jmh.loops.LoopBenchmarkMain.forEachLambdaMaxInteger
+
+# Run progress: 0.00% complete, ETA 00:02:20
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.848 ms/op
+# Warmup Iteration   2: 0.723 ms/op
+# Warmup Iteration   3: 0.701 ms/op
+# Warmup Iteration   4: 0.692 ms/op
+# Warmup Iteration   5: 0.590 ms/op
+Iteration   1: 0.586 ms/op
+Iteration   2: 0.581 ms/op
+Iteration   3: 0.591 ms/op
+Iteration   4: 0.580 ms/op
+Iteration   5: 0.593 ms/op
+
+# Run progress: 7.14% complete, ETA 00:02:15
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.873 ms/op
+# Warmup Iteration   2: 0.731 ms/op
+# Warmup Iteration   3: 0.695 ms/op
+# Warmup Iteration   4: 0.690 ms/op
+# Warmup Iteration   5: 0.594 ms/op
+Iteration   1: 0.589 ms/op
+Iteration   2: 0.604 ms/op
+Iteration   3: 0.599 ms/op
+Iteration   4: 0.594 ms/op
+Iteration   5: 0.597 ms/op
+
+
+Result "com.fguer.jmh.loops.LoopBenchmarkMain.forEachLambdaMaxInteger":
+  0.591 ±(99.9%) 0.012 ms/op [Average]
+  (min, avg, max) = (0.580, 0.591, 0.604), stdev = 0.008
+  CI (99.9%): [0.580, 0.603] (assumes normal distribution)
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_144, VM 25.144-b01
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.fguer.jmh.loops.LoopBenchmarkMain.forEachLoopMaxInteger
+
+# Run progress: 14.29% complete, ETA 00:02:04
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.119 ms/op
+# Warmup Iteration   2: 0.120 ms/op
+# Warmup Iteration   3: 0.120 ms/op
+# Warmup Iteration   4: 0.120 ms/op
+# Warmup Iteration   5: 0.126 ms/op
+Iteration   1: 0.125 ms/op
+Iteration   2: 0.130 ms/op
+Iteration   3: 0.128 ms/op
+Iteration   4: 0.118 ms/op
+Iteration   5: 0.122 ms/op
+
+# Run progress: 21.43% complete, ETA 00:01:54
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.121 ms/op
+# Warmup Iteration   2: 0.120 ms/op
+# Warmup Iteration   3: 0.118 ms/op
+# Warmup Iteration   4: 0.118 ms/op
+# Warmup Iteration   5: 0.119 ms/op
+Iteration   1: 0.119 ms/op
+Iteration   2: 0.118 ms/op
+Iteration   3: 0.118 ms/op
+Iteration   4: 0.116 ms/op
+Iteration   5: 0.118 ms/op
+
+
+Result "com.fguer.jmh.loops.LoopBenchmarkMain.forEachLoopMaxInteger":
+  0.121 ±(99.9%) 0.007 ms/op [Average]
+  (min, avg, max) = (0.116, 0.121, 0.130), stdev = 0.005
+  CI (99.9%): [0.114, 0.128] (assumes normal distribution)
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_144, VM 25.144-b01
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.fguer.jmh.loops.LoopBenchmarkMain.forMaxInteger
+
+# Run progress: 28.57% complete, ETA 00:01:43
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.237 ms/op
+# Warmup Iteration   2: 0.235 ms/op
+# Warmup Iteration   3: 0.233 ms/op
+# Warmup Iteration   4: 0.234 ms/op
+# Warmup Iteration   5: 0.244 ms/op
+Iteration   1: 0.251 ms/op
+Iteration   2: 0.255 ms/op
+Iteration   3: 0.236 ms/op
+Iteration   4: 0.235 ms/op
+Iteration   5: 0.233 ms/op
+
+# Run progress: 35.71% complete, ETA 00:01:33
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.236 ms/op
+# Warmup Iteration   2: 0.248 ms/op
+# Warmup Iteration   3: 0.250 ms/op
+# Warmup Iteration   4: 0.235 ms/op
+# Warmup Iteration   5: 0.230 ms/op
+Iteration   1: 0.228 ms/op
+Iteration   2: 0.228 ms/op
+Iteration   3: 0.241 ms/op
+Iteration   4: 0.236 ms/op
+Iteration   5: 0.231 ms/op
+
+
+Result "com.fguer.jmh.loops.LoopBenchmarkMain.forMaxInteger":
+  0.237 ±(99.9%) 0.014 ms/op [Average]
+  (min, avg, max) = (0.228, 0.237, 0.255), stdev = 0.009
+  CI (99.9%): [0.223, 0.252] (assumes normal distribution)
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_144, VM 25.144-b01
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.fguer.jmh.loops.LoopBenchmarkMain.iteratorMaxInteger
+
+# Run progress: 42.86% complete, ETA 00:01:22
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.118 ms/op
+# Warmup Iteration   2: 0.116 ms/op
+# Warmup Iteration   3: 0.117 ms/op
+# Warmup Iteration   4: 0.122 ms/op
+# Warmup Iteration   5: 0.117 ms/op
+Iteration   1: 0.118 ms/op
+Iteration   2: 0.117 ms/op
+Iteration   3: 0.115 ms/op
+Iteration   4: 0.115 ms/op
+Iteration   5: 0.117 ms/op
+
+# Run progress: 50.00% complete, ETA 00:01:12
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.120 ms/op
+# Warmup Iteration   2: 0.117 ms/op
+# Warmup Iteration   3: 0.115 ms/op
+# Warmup Iteration   4: 0.115 ms/op
+# Warmup Iteration   5: 0.121 ms/op
+Iteration   1: 0.117 ms/op
+Iteration   2: 0.115 ms/op
+Iteration   3: 0.121 ms/op
+Iteration   4: 0.116 ms/op
+Iteration   5: 0.115 ms/op
+
+
+Result "com.fguer.jmh.loops.LoopBenchmarkMain.iteratorMaxInteger":
+  0.117 ±(99.9%) 0.003 ms/op [Average]
+  (min, avg, max) = (0.115, 0.117, 0.121), stdev = 0.002
+  CI (99.9%): [0.114, 0.119] (assumes normal distribution)
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_144, VM 25.144-b01
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.fguer.jmh.loops.LoopBenchmarkMain.lambdaMaxInteger
+
+# Run progress: 57.14% complete, ETA 00:01:02
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.861 ms/op
+# Warmup Iteration   2: 0.671 ms/op
+# Warmup Iteration   3: 0.607 ms/op
+# Warmup Iteration   4: 0.614 ms/op
+# Warmup Iteration   5: 0.576 ms/op
+Iteration   1: 0.573 ms/op
+Iteration   2: 0.589 ms/op
+Iteration   3: 0.624 ms/op
+Iteration   4: 0.724 ms/op
+Iteration   5: 0.744 ms/op
+
+# Run progress: 64.29% complete, ETA 00:00:51
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.748 ms/op
+# Warmup Iteration   2: 0.627 ms/op
+# Warmup Iteration   3: 0.611 ms/op
+# Warmup Iteration   4: 0.591 ms/op
+# Warmup Iteration   5: 0.628 ms/op
+Iteration   1: 0.652 ms/op
+Iteration   2: 0.589 ms/op
+Iteration   3: 0.586 ms/op
+Iteration   4: 0.578 ms/op
+Iteration   5: 0.594 ms/op
+
+
+Result "com.fguer.jmh.loops.LoopBenchmarkMain.lambdaMaxInteger":
+  0.625 ±(99.9%) 0.094 ms/op [Average]
+  (min, avg, max) = (0.573, 0.625, 0.744), stdev = 0.062
+  CI (99.9%): [0.532, 0.719] (assumes normal distribution)
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_144, VM 25.144-b01
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.fguer.jmh.loops.LoopBenchmarkMain.parallelStreamMaxInteger
+
+# Run progress: 71.43% complete, ETA 00:00:41
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.305 ms/op
+# Warmup Iteration   2: 0.249 ms/op
+# Warmup Iteration   3: 0.275 ms/op
+# Warmup Iteration   4: 0.304 ms/op
+# Warmup Iteration   5: 0.287 ms/op
+Iteration   1: 0.339 ms/op
+Iteration   2: 0.329 ms/op
+Iteration   3: 0.314 ms/op
+Iteration   4: 0.334 ms/op
+Iteration   5: 0.291 ms/op
+
+# Run progress: 78.57% complete, ETA 00:00:31
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.332 ms/op
+# Warmup Iteration   2: 0.281 ms/op
+# Warmup Iteration   3: 0.279 ms/op
+# Warmup Iteration   4: 0.377 ms/op
+# Warmup Iteration   5: 0.563 ms/op
+Iteration   1: 0.583 ms/op
+Iteration   2: 0.573 ms/op
+Iteration   3: 0.563 ms/op
+Iteration   4: 0.311 ms/op
+Iteration   5: 0.319 ms/op
+
+
+Result "com.fguer.jmh.loops.LoopBenchmarkMain.parallelStreamMaxInteger":
+  0.396 ±(99.9%) 0.186 ms/op [Average]
+  (min, avg, max) = (0.291, 0.396, 0.583), stdev = 0.123
+  CI (99.9%): [0.209, 0.582] (assumes normal distribution)
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_144, VM 25.144-b01
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.fguer.jmh.loops.LoopBenchmarkMain.streamMaxInteger
+
+# Run progress: 85.71% complete, ETA 00:00:20
+# Fork: 1 of 2
+# Warmup Iteration   1: 1.324 ms/op
+# Warmup Iteration   2: 0.749 ms/op
+# Warmup Iteration   3: 0.652 ms/op
+# Warmup Iteration   4: 0.622 ms/op
+# Warmup Iteration   5: 0.669 ms/op
+Iteration   1: 0.674 ms/op
+Iteration   2: 0.694 ms/op
+Iteration   3: 0.684 ms/op
+Iteration   4: 0.682 ms/op
+Iteration   5: 0.710 ms/op
+
+# Run progress: 92.86% complete, ETA 00:00:10
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.768 ms/op
+# Warmup Iteration   2: 0.638 ms/op
+# Warmup Iteration   3: 0.609 ms/op
+# Warmup Iteration   4: 0.637 ms/op
+# Warmup Iteration   5: 0.686 ms/op
+Iteration   1: 0.705 ms/op
+Iteration   2: 0.773 ms/op
+Iteration   3: 0.675 ms/op
+Iteration   4: 0.737 ms/op
+Iteration   5: 0.711 ms/op
+
+
+Result "com.fguer.jmh.loops.LoopBenchmarkMain.streamMaxInteger":
+  0.705 ±(99.9%) 0.047 ms/op [Average]
+  (min, avg, max) = (0.674, 0.705, 0.773), stdev = 0.031
+  CI (99.9%): [0.658, 0.751] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:02:25
+
+Benchmark                                   Mode  Cnt  Score   Error  Units
+LoopBenchmarkMain.forEachLambdaMaxInteger   avgt   10  0.591 ± 0.012  ms/op
+LoopBenchmarkMain.forEachLoopMaxInteger     avgt   10  0.121 ± 0.007  ms/op
+LoopBenchmarkMain.forMaxInteger             avgt   10  0.237 ± 0.014  ms/op
+LoopBenchmarkMain.iteratorMaxInteger        avgt   10  0.117 ± 0.003  ms/op
+LoopBenchmarkMain.lambdaMaxInteger          avgt   10  0.625 ± 0.094  ms/op
+LoopBenchmarkMain.parallelStreamMaxInteger  avgt   10  0.396 ± 0.186  ms/op
+LoopBenchmarkMain.streamMaxInteger          avgt   10  0.705 ± 0.047  ms/op
