@@ -1,4 +1,4 @@
-package com.fguer.jmh.loops;
+package com.fguer.demo.jmh;
 
 import java.util.ArrayList;
 import java.util.Iterator;
