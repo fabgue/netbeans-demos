@@ -1,0 +1,9 @@
+example:
+  baseUrl: http://localhost:8080
+  oauth2:
+    client:
+      grantType: client_credentials
+      clientId: 0oaj2zboasYp2Zmoc0h7
+      clientSecret: aUtx0_AxPAcaRPaOFWYUAxRc0fe3hEpTsCrNeHuw
+      accessTokenUri: https://dev-120176.oktapreview.com/oauth2/default/v1/token
+      scope: simple_app
